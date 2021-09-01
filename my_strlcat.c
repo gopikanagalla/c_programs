@@ -16,6 +16,7 @@ int my_strlcat(char *restrict dst, const char *restrict src, int dstsize)
             break;
     }
     *(dst+offset) = '\0';
+	
   return( d_len+s_len );
 }
 int main()
